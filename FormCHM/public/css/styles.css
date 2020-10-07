@@ -1,0 +1,58 @@
+body{
+  background-color: #ffffff;
+  color: #333333;
+}
+
+#image-background{
+  width: 400px;
+  height: 400px;
+  float: center;
+}
+
+.card-body{
+  color: #ffffff;
+  background: rgb(248, 111, 45,0.85) !important;
+}
+
+.list-group-item :after {
+  background-color: #ffffff !important;
+  color: #333333 !important;
+}
+
+.form-check-label{
+  font-size: 16px;
+  font-weight: 500;
+  padding: 2px 8px;
+}
+.form-check-input{
+  width: 20px;
+  height: 20px;
+}
+
+/* @media screen and (max-width: 768px) {
+  #second_form{
+    margin-top: -1050px;
+  }
+  .shift-list{
+    padding-left: 0px !important;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  #second_form{
+    margin-top: -790px;
+  }
+} */
+
+.btn-color{
+  background-color: #ffffff;
+}
+
+.svg-menu{
+  padding-right: 8px;
+  padding-bottom: 3px;
+}
+
+input::placeholder{
+  color: #f00;
+}
